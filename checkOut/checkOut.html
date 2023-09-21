@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <style>
+      #csscostome {
+        width: 100%;
+        height: 340px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-tob">
+      <h3><i class="fa-solid fa-cart-plus text-success m-2"></i></h3>
+      <a class="navbar-brand font-weight-bold" href="#">ENDY_SPORT</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-4">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Beranda<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../navItems/contactme.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Bantuan<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <div class="icon mt-2">
+          <h5>
+            <i class="fa-solid fa-cart-plus m-2"></i>
+            <i class="fa-solid fa-envelope m-2"></i>
+            <i class="fa-solid fa-bell m-2"></i>
+          </h5>
+        </div>
+      </div>
+    </nav>
+    <div class="row no-gutters">
+      <div class="col-md-2 bg-light">
+        <ul class="list-group list-group-flush p-1">
+          <li class="list-group-item bg-warning">
+            <i class="fa-solid fa-list m-2"></i>KATEGORI PRODUK
+          </li>
+          <a href="../kategori_Produk/sepatuOlahraga.html" class="list-group-item text-warning"
+            ><i class="fa-solid fa-angle-right m-2"></i>Sepatu Olahraga</a
+          >
+          <a href="../kategori_Produk/sepatuAnak.html" class="list-group-item text-warning"
+            ><i class="fa-solid fa-angle-right m-2"></i>Sepatu Anak</a
+          >
+          <a href="../kategori_Produk/sepatuKasual.html" class="list-group-item text-warning"
+            ><i class="fa-solid fa-angle-right m-2"></i>Sepatu Kasual</a
+          >
+          <a href="../kategori_Produk/sepatuFashion.html" class="list-group-item text-warning"
+            ><i class="fa-solid fa-angle-right m-2"></i>Sepatu Fashion</a
+          >
+        </ul>
+      </div>
+
+      <div class="col-md-10 ">
+        <h4 class="text-center font-weight-bold m-4">Sepatu Olahraga</h4>
+        <div class="container">
+            <div class="alert alert-warning" role="alert">
+                Pastikan Anda Mengisi Form Dengan Benar
+              </div>
+              <div class="row">
+                <form class="col" id="order-form">
+                  <div class="form-group w-50 mbl2">
+                      <label for="exampleFormControlInput1">Nama</label>
+                      <input type="text" class="form-control" id="nama" placeholder="Nama">
+                  </div>
+                  <div class="form-group w-50">
+                      <label for="exampleFormControlTextarea1">Alamat</label>
+                      <textarea class="form-control" id="alamat" rows="3"></textarea>
+                  </div>
+                  <div class="form-group w-50">
+                      <label for="exampleFormControlSelect1">Jumlah Pesanan</label>
+                      <select class="form-control" id="jumlahPesanan">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                      </select>
+                  </div>
+                  <div class="form-group w-50">
+                      <label for="exampleFormControlTextarea1">Tinggalkan Pesan Kepada Penjual</label>
+                      <textarea class="form-control" id="pesanKepada" rows="3"></textarea>
+                  </div>
+                  <div class="form-group w-50">
+                      <label for="exampleFormControlSelect1">Pilih jenis Pembayaran</label>
+                      <select class="form-control" id="jenisPembayaran">
+                          <option>COD</option>
+                          <option>BRI</option>
+                          <option>BCA</option>
+                          <option>Kartu Kredit/Debit</option>
+                      </select>
+                  </div>
+                  <button class="btn btn-danger" id="buatPesanan">Buat Pesanan</button>
+              </form>
+              <div id="outputPesanan">
+              </div>
+              </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="alertModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Header Modal -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Alert</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Body Modal -->
+                <div class="modal-body">
+                    <p>Ini adalah contoh pesan alert menggunakan modal Bootstrap.</p>
+                </div>
+
+                <!-- Footer Modal -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      // Cek apakah ada data pesanan di localStorage
+      var savedPesanan = localStorage.getItem("pesanan");
+      if (savedPesanan) {
+          document.getElementById("outputPesanan").innerHTML = savedPesanan;
+      }
+   
+      document.getElementById("buatPesanan").addEventListener("click", function() {
+
+          alert ("anda telah membuat pesanan")
+          // Ambil nilai dari form
+          var nama = document.getElementById("nama").value;
+          var alamat = document.getElementById("alamat").value;
+          var jumlahPesanan = parseInt(document.getElementById("jumlahPesanan").value);
+          var pesanKepada = document.getElementById("pesanKepada").value;
+          var jenisPembayaran = document.getElementById("jenisPembayaran").value;
+
+          // Hitung total pesanan (harga 300,000 per barang)
+          var totalHarga = jumlahPesanan * 300000;
+
+          // Tampilkan semua informasi pesanan
+          var resultHtml = "<h2>Detail Pesanan:</h2>";
+          resultHtml += "<p><strong>Nama:</strong> " + nama + "</p>";
+          resultHtml += "<p><strong>Alamat:</strong> " + alamat + "</p>";
+          resultHtml += "<p><strong>Jumlah Pesanan:</strong> " + jumlahPesanan + " barang</p>";
+          resultHtml += "<p><strong>Tinggalkan Pesan Kepada Penjual:</strong> " + pesanKepada + "</p>";
+          resultHtml += "<p><strong>Jenis Pembayaran:</strong> " + jenisPembayaran + "</p>";
+          resultHtml += "<p><strong>Total Pesanan:</strong> Rp " + totalHarga.toLocaleString() + "</p>";
+          
+          // Tambahkan pesan "Barang segera diantar"
+          resultHtml += "<p>Barang segera diantar</p>";
+
+          // Tampilkan hasil di dalam elemen dengan ID "outputPesanan"
+          document.getElementById("outputPesanan").innerHTML = resultHtml;
+
+          // Simpan data pesanan ke localStorage
+          localStorage.setItem("pesanan", resultHtml);
+      });
+  </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
