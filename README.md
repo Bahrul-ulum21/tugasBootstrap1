@@ -1,6 +1,7 @@
 # tugasBootstrap1
-Test
-haloo
-test aja
-cek fnhsn
-rizma sabillah
+Anggota :
+1. Bahrul Ulum
+2. Ahmad Rozaq Ubaidillah
+3. Tedy Argo Pratamagit
+4. risma Sabillah
+5. Fina Awla Rahmatika
