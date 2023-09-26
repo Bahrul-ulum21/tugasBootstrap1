@@ -1,0 +1,2 @@
+Link deploy :  https://bahrul-ulum21.github.io/tugasBootstrap1/index.html
+link Github :  https://github.com/Bahrul-ulum21/tugasBootstrap1.git
