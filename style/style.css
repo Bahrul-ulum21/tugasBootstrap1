@@ -1,9 +1,17 @@
 body {
-  background-color: rgb(244, 241, 239);
+  background-color: #aeaeae;
 }
 
-.costome {
+.custom {
   color: rgb(249, 191, 32);
+}
+
+.bg-custom {
+  background-color: #808080;
+}
+
+.bg-custom-lighter {
+  background-color: #aeaeae;
 }
 
 /*# sourceMappingURL=style.css.map */

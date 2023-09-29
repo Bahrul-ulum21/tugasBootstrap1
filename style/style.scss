@@ -1,10 +1,21 @@
-$font-stack: Helvectica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $background-color: rgb(244, 241, 239);
 $text-color: rgb(249, 191, 32);
+$custom-bg: #808080; // Ubah ke abu-abu
+$custom-bg-lighter: #aeaeae;
 
 body {
-    background-color: $background-color;
+    background-color: $custom-bg-lighter;
 }
-.costome {
+
+.custom {
     color: $text-color;
+}
+
+.bg-custom {
+    background-color: $custom-bg;
+}
+
+.bg-custom-lighter {
+    background-color: $custom-bg-lighter;
 }
