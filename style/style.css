@@ -1,5 +1,5 @@
 body {
-  background-color: #aeaeae;
+  background-color: rgb(244, 241, 239);
 }
 
 .custom {
@@ -7,11 +7,13 @@ body {
 }
 
 .bg-custom {
-  background-color: #808080;
+  background-color: #717382;
+  color: white;
 }
 
 .bg-custom-lighter {
-  background-color: #aeaeae;
+  background-color: #fffbaa;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
