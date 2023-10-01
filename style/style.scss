@@ -1,12 +1,8 @@
 $font-stack: Helvetica, sans-serif;
-$background-color: rgb(244, 241, 239);
 $text-color: rgb(249, 191, 32);
 $custom-bg: #717382 ;
-$custom-bg-lighter: #fffbaa;;
+$custom-bg-lighter: #fffbaa;
 
-body {
-    background-color: $background-color;
-}
 
 .custom {
     color: $text-color;
@@ -20,4 +16,13 @@ body {
 .bg-custom-lighter {
     background-color: $custom-bg-lighter;
     color: white;
+}
+.single-box {  
+    color: white;
+    font-size: 20px;
+	font-weight: 700;
+}
+footer {
+	background: $custom-bg;
+	padding: 20px 0;
 }
