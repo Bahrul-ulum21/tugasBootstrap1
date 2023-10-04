@@ -1,0 +1,14 @@
+//fungsi
+$first-height: 5px;
+$second-height: 5px;
+$custom-font: bold !important;
+$color: green;
+
+@function atur-height($n) {
+  @return $n * $first-height + $n * $second-height;
+}
+
+.tedy-font {
+    font: $custom-font;
+    color: $color;
+}
