@@ -1,0 +1,17 @@
+$custom-font-family: sans-serif;
+$custom-font-size: 16px;
+$custom-text-color: rgb(77, 77, 13);
+
+@function custom-text-style() {
+    $style: unquote("font-family: #{$custom-font-family};");
+    $style: $style + unquote(" font-weight: normal;");
+    $style: $style + unquote(" font-size: #{$custom-font-size};");
+    $style: $style + unquote(" color: #{$custom-text-color};");
+    @return $style;
+  }
+    
+
+.bahrul-custom {
+  font: custom-text-style();
+  
+}

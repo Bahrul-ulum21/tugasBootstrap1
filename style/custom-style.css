@@ -1,18 +1,17 @@
-/* Error: Undefined mixin.
- *   ,
- * 9 |   @include generate-navbar(#fff, #fff); // Ganti dengan warna latar belakang dan teks yang sesuai
- *   |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   custom\_custome-navbar.scss 9:3  @import
- *   custom-navbar.scss 1:9           root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 9 \2502    @include generate-navbar(#fff, #fff); // Ganti dengan warna latar belakang dan teks yang sesuai\d\a   \2502    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   custom\\_custome-navbar.scss 9:3  @import\a   custom-navbar.scss 1:9           root stylesheet";
+.custom-padding {
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
+
+.tedy-font {
+  font: bold !important;
+  color: green;
+}
+
+.bahrul-custom {
+  font: font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px; color: rgb(77, 77, 13);;
+}
+
+/*# sourceMappingURL=custom-style.css.map */
