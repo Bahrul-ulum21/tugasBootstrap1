@@ -8,10 +8,30 @@
   color: green;
 }
 
-.bahrul-custom {
-  font: font-family: sans-serif;
-  font-weight: normal;
-  font-size: 16px; color: rgb(77, 77, 13);;
+.buton-custom {
+  padding: px 20px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.buton-custom:hover {
+  background-color: #007bff;
+}
+.buton-custom:active {
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#status {
+  font-size: 20px;
+  color: #007bff;
+  color: black;
 }
 
 /*# sourceMappingURL=custom-style.css.map */
