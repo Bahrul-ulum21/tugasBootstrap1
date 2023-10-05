@@ -10,11 +10,12 @@
 
 .buton-custom {
   padding: px 20px;
-  font-size: 18px;
+  font-weight: 400;
+  -webkit-transition-timing-function: 1rem;
   background-color: red;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25px;
 }
 .buton-custom:hover {
   background-color: #007bff;
@@ -32,4 +33,6 @@ h1 {
   font-size: 20px;
   color: #007bff;
   color: black;
-}/*# sourceMappingURL=custom-style.css.map */
+}
+
+/*# sourceMappingURL=custom-style.css.map */

@@ -3,11 +3,12 @@ $secondary-color: red;
 
 %btn-style {
   padding: px 20px;
-  font-size: 18px;
+  font-weight: 400;
+  -webkit-transition-timing-function: 1rem;
   background-color: $secondary-color; 
   color: white; 
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25px;
 
   &:hover {
     background-color: $primary-color;
