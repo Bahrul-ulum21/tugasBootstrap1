@@ -2,13 +2,13 @@ $primary-color: #007bff;
 $secondary-color: red;
 
 %btn-style {
-  padding: px 20px;
+  padding: 7px;
   font-weight: 400;
   -webkit-transition-timing-function: 1rem;
   background-color: $secondary-color; 
   color: white; 
   border: none;
-  border-radius: 0.25px;
+  border-radius: 5px;
 
   &:hover {
     background-color: $primary-color;

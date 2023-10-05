@@ -9,13 +9,13 @@
 }
 
 .buton-custom {
-  padding: px 20px;
+  padding: 7px;
   font-weight: 400;
   -webkit-transition-timing-function: 1rem;
   background-color: red;
   color: white;
   border: none;
-  border-radius: 0.25px;
+  border-radius: 5px;
 }
 .buton-custom:hover {
   background-color: #007bff;
