@@ -3,9 +3,9 @@
   padding-bottom: 30px;
 }
 
-.tedy-font {
+.custom-colorFont {
   font: bold !important;
-  color: green;
+  color: #717382;
 }
 
 .buton-custom {
@@ -32,6 +32,4 @@ h1 {
   font-size: 20px;
   color: #007bff;
   color: black;
-}
-
-/*# sourceMappingURL=custom-style.css.map */
+}/*# sourceMappingURL=custom-style.css.map */
