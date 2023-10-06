@@ -1,0 +1,11 @@
+$first-height: 5px;
+$second-height: 5px;
+
+@function atur-height($n) {
+  @return $n * $first-height + $n * $second-height;
+}
+
+.custom-padding {
+  padding-top: atur-height(7);
+  padding-bottom: atur-height(3);
+}
