@@ -1,5 +1,4 @@
-$first-height: 5px;
-$second-height: 5px;
+@import "variables";
 
 @function atur-height($n) {
   @return $n * $first-height + $n * $second-height;

@@ -1,14 +1,10 @@
-//fungsi
-$first-height: 5px;
-$second-height: 5px;
-$custom-font: bold !important;
-$color: #717382;
+@import "variables";
 
 @function atur-height($n) {
   @return $n * $first-height + $n * $second-height;
 }
 
-.custom-colorFont {
-    font: $custom-font;
-    color: $color;
+.custom-padding {
+  padding-top: atur-height(7);
+  padding-bottom: atur-height(3);
 }

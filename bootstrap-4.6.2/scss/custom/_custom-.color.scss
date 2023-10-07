@@ -1,6 +1,4 @@
-$font-stack: Helvetica, sans-serif;
-$bg-color: rgb(244, 241, 239);
-$custom-color: #717382;
+@import "variables";
 
 body {
   background-color: $bg-color;
@@ -12,7 +10,7 @@ body {
 
 .single-box {
   h2 {
-    color: white;
+    color: $text-color-default;
     font-size: 20px;
     font-weight: 700;
     font-family: $font-stack;
@@ -21,11 +19,11 @@ body {
   h3 {
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: $text-color-default;
   }
 
   p {
-    color: #fff;
+    color: $text-color-default;
     line-height: 1.9;
   }
   ul {
@@ -34,7 +32,7 @@ body {
     
     li a {
       text-decoration: none;
-      color: #fff;
+      color: $text-color-default;
       line-height: 2.5;
       font-weight: 100;
     }
@@ -42,7 +40,7 @@ body {
 
   .card-area {
     i {
-      color: #ffffff;
+      color: $text-color-default;
       font-size: 20px;
       margin-right: 10px;
     }
