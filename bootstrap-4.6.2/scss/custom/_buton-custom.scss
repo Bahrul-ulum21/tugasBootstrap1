@@ -2,8 +2,15 @@ $primary-color: #007bff;
 $secondary-color: red;
 
 %btn-style {
-  padding: 8px;
+  padding: 9px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
   font-weight: 400;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  border-radius: 0.25rem;
   background-color: $secondary-color; 
   color: white; 
   border: none;
